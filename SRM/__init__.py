@@ -25,7 +25,7 @@ class SRM:
         return self.finalize()
     
     def initialization(self):
-        print "init"
+        print (__init__)
         self._uf = UnionFind()
         uf = self._uf
         n = self._n
